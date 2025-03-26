@@ -302,6 +302,20 @@ main {
   border-radius: 30px;
   box-shadow: -5px 1px 20px rgba(0, 0, 0, 0.315);
   height: 350px;
+  align-items: end;
+  display: flex;
+}
+
+.swiper-slide p {
+  position: relative;
+  color: yellow;
+  font-size: 20px;
+  font-family: 'EB Garamond', Courier, monospace;
+  padding: 20px;
+  font-weight: 800;
+  text-align: start;
+  line-height: 25px;
+
 }
 
 .swiper-slide img {
@@ -309,6 +323,7 @@ main {
   height: 350px;
   border-radius: 30px;
   object-fit: cover;
+  position: absolute;
 }
 
 .comments-box {
